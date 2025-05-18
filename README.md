@@ -167,9 +167,11 @@ conda activate myenv
 | 🔄 Reproducibility (lock files, etc.) | Built-in via `uv` (advanced users)   | Needs `conda-lock` or manual tracking     |
 | 🔌 Integration with Other Tools       | Compatible with `pip`, `venv`, etc.  | Great for data science tools like Jupyter |
 | 🔧 Python Version Flexibility         | Python must be installed separately  | Python version bundled with env creation  |
+
 <br>
 ✅ Which One Should You Use?
 <br>
+
 | Your Situation                                          | Recommended Tool |
 | ------------------------------------------------------- | ---------------- |
 | 🆕 Beginner or prefer easy setup                        | **Conda**        |
