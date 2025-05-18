@@ -1,5 +1,5 @@
-# SCI-TECH-ENGG-NEXUS-Services
-# Python Setup Tips
+# SCI-TECH-ENGG-NEXUS-Services🔬
+# Python Setup Tips🐍
 <br>
 There are several ways to install Python and set up your computing environment. Here, I share my personal preferences.
 <br>
