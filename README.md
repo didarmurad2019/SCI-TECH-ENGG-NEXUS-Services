@@ -48,5 +48,43 @@ Windows Users:
 <br>
 Download and run the Python installer from the official website:
 🔗 https://www.python.org/downloads/
-
+<br>
+🐍 2️⃣ Create a Virtual Environment (Highly Recommended)
+Installing packages in a virtual environment keeps your system clean and avoids interfering with system-wide packages.
+<br>
+Step-by-step:
+<br>
+1. Install uv:
+<br>
+pip install uv
+<br>
+2. Create the virtual environment:
+<br>
+uv venv --python=python3.13
+<br>
+This will create a .venv folder in your current directory.
+<br>
+3. Activate the virtual environment:
+<br>
+On macOS/Linux:
+<br>
+source .venv/bin/activate
+<br>
+On Windows:
+<br>
+.venv\Scripts\activate
+<br>
+or
+<br>
+source .venv/Scripts/activate
+<br>
+🔁 Important Reminder:
+<br>
+You need to activate your virtual environment every time you open a new terminal or restart your computer.
+<br>
+Just run:
+<br>
+source .venv/bin/activate
+<br>
+(or the correct command for your OS) inside your project folder to get back to work.
 
