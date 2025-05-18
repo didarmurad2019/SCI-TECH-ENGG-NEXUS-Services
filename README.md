@@ -89,6 +89,7 @@ source .venv/bin/activate
 <br>
 (or the correct command for your OS) inside your project folder to get back to work.
 <br>
+
 # Option 2: Using Conda (Anaconda or Miniconda)🧪
 <br>
 If you prefer not to use uv or run into any issues, Conda is a reliable and widely-used alternative for managing Python environments and packages.
