@@ -27,23 +27,22 @@ Note: uv works like pip, so if you’ve used pip before, this will feel familiar
 <br>
 There are also more advanced uv features, like using uv add, but we’ll stick with the basics here.
 <br>
-
-
-
-# 1. Install Python (if not installed)
+1️⃣ Install Python (If You Don't Have It Yet)
 <br>
-If you haven't manually installed Python on your system before, I highly recommend doing so. This helps prevent potential conflicts with your operating system's built-in Python installation, which could lead to issues.
+If you've never installed Python manually, it’s a good idea to do it now. This avoids possible issues with your system’s built-in Python.
 <br>
-However, even if you have installed Python on your system before, check if you have a modern version of Python installed (I recommend 3.13 or newer) by executing the following code in the terminal:
+Even if you already have Python, check the version by running this command in your terminal:
+<br>
 python --version
 <br>
-If it returns 3.10 or newer, no further action is required.
+If it shows Python 3.10 or newer, you’re good to go.
 <br>
-Note: If python --version indicates that no Python version is installed, you may also want to check python3 --version since your system might be configured to use the python3 command instead.
+If not, try this command too:
 <br>
-Note: I recommend installing a Python version that is at least 2 versions older than the most recent release to ensure PyTorch compatibility. For example, if the most recent version is Python 3.15, I recommend installing version 3.13 or 3.12.
+python3 --version
 <br>
-Otherwise, if Python is not installed or is an older version, you can install it for your operating system as described below.
+👉 Tip: For best results, use a Python version that’s about 2 versions behind the latest.
+For example, if the latest is Python 3.15, go with 3.13 or 3.12. This makes things like PyTorch work better.
 <br>
 
 🐍 
