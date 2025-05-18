@@ -22,9 +22,21 @@ Note: There are alternative ways to install Python and use uv. For example, you 
 
 # 1. Install Python (if not installed)
 <br>
-python --version
 If you haven't manually installed Python on your system before, I highly recommend doing so. This helps prevent potential conflicts with your operating system's built-in Python installation, which could lead to issues.
 <br>
 However, even if you have installed Python on your system before, check if you have a modern version of Python installed (I recommend 3.13 or newer) by executing the following code in the terminal:
+python --version
+<br>
+If it returns 3.10 or newer, no further action is required.
+<br>
+Note: If python --version indicates that no Python version is installed, you may also want to check python3 --version since your system might be configured to use the python3 command instead.
+<br>
+Note: I recommend installing a Python version that is at least 2 versions older than the most recent release to ensure PyTorch compatibility. For example, if the most recent version is Python 3.15, I recommend installing version 3.13 or 3.12.
+<br>
+Otherwise, if Python is not installed or is an older version, you can install it for your operating system as described below.
+<br>
+
+🐍 
+# Create a Virtual Environment (Recommended)
 
 
