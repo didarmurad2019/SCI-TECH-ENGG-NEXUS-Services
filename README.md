@@ -19,3 +19,12 @@ I recommend starting with Option 1: Using uv as it is the more modern approach i
 This section guides you through the Python setup and package installation procedure using uv via its uv pip interface. The uv pip interface may feel more familiar to most Python users who have used pip before than the native uv commands.
 <br>
 Note: There are alternative ways to install Python and use uv. For example, you can install Python directly via uv and use uv add instead of uv pip install for even faster package management.
+
+# 1. Install Python (if not installed)
+<br>
+python --version
+If you haven't manually installed Python on your system before, I highly recommend doing so. This helps prevent potential conflicts with your operating system's built-in Python installation, which could lead to issues.
+<br>
+However, even if you have installed Python on your system before, check if you have a modern version of Python installed (I recommend 3.13 or newer) by executing the following code in the terminal:
+
+
