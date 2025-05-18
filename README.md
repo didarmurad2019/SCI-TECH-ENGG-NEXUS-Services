@@ -44,8 +44,9 @@ python3 --version
 👉 Tip: For best results, use a Python version that’s about 2 versions behind the latest.
 For example, if the latest is Python 3.15, go with 3.13 or 3.12. This makes things like PyTorch work better.
 <br>
-
-🐍 
-# Create a Virtual Environment (Recommended)
+Windows Users:
+<br>
+Download and run the Python installer from the official website:
+🔗 https://www.python.org/downloads/
 
 
