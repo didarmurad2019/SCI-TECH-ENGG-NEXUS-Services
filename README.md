@@ -7,6 +7,8 @@ Note: If you are running any of the notebooks on Google Colab and want to instal
 <br>
 The remaining sections below describe how you can manage your Python environment and packages on your local machine.
 <br>
-I have been a long-time user of Conda (https://anaconda.org/anaconda/conda) and pip, but recently, the uv package has gained significant traction as it provides a faster and more efficient way to install packages and resolve dependencies.
+I have been a long-time user of Conda (https://anaconda.org/anaconda/conda) and pip (https://pypi.org/project/pip/), but recently, the uv package (https://github.com/astral-sh/uv) has gained significant traction as it provides a faster and more efficient way to install packages and resolve dependencies.
+<br>
+I recommend starting with Option 1: Using uv as it is the more modern approach in 2025. If you encounter problems with Option 1, consider Option 2: Using Conda.
 <br>
 I recommend starting with Option 1: Using uv as it is the more modern approach in 2025. If you encounter problems with Option 1, consider Option 2: Using Conda.
