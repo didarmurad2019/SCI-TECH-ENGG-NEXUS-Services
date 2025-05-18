@@ -152,46 +152,8 @@ Every time you open a new terminal or VS Code session, don’t forget to activat
 <br>
 conda activate myenv
 <br>
+
 # uv vs conda: A Quick Comparison
-<br>
-Feature / Task	uv (Modern)	conda (Traditional)
-<br>
-🐍 Python Installation	External (use python.org or system)	Built-in: installs Python with env
-<br>
-📦 Package Manager	Uses pip under the hood	Uses conda or pip
-<br>
-🧪 Environment Creation	uv venv --python=python3.10	conda create -n env python=3.10
-<br>
-🚀 Environment Activation	source .venv/bin/activate (Unix)	conda activate env
-<br>
-⚡ Speed	Faster installs, smarter resolver	Slower, but stable
-<br>
-🌍 Cross-platform Support	Yes (uses virtualenv under the hood)	Yes (very mature)
-<br>
-🧠 Learning Curve	Low for pip users	Very beginner-friendly
-<br>
-🔄 Reproducibility (lock files, etc.)	Built-in via uv (advanced users)	Needs conda-lock or manual tracking
-<br>
-🔌 Integration with Other Tools	Compatible with pip, venv, etc.	Great for data science tools like Jupyter
-<br>
-🔧 Python Version Flexibility	Python must be installed separately	Python version bundled with env creation
-<br>
-✅ Which One Should You Use?
-<br>
-Your Situation	Recommended Tool
-<br>
-🆕 Beginner or prefer easy setup	Conda
-<br>
-⚡ Want faster installs, modern tools	uv
-<br>
-🧪 Need precise Python versioning, system compatibility	Conda
-<br>
-📦 Already familiar with pip/venv	uv
-
-
-
-
-
 
 | Feature / Task                        | `uv` (Modern)                        | `conda` (Traditional)                     |
 | ------------------------------------- | ------------------------------------ | ----------------------------------------- |
