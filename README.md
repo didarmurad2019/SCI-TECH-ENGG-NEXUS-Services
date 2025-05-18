@@ -5,8 +5,16 @@
 <br>
 If you're running your code on Google Colab (https://colab.research.google.com/), just add this line at the top of your notebook:
 <br>
+!pip install uv or pip install uv
+<br>
 You can skip the rest of this guide if you're using Colab.
 <br>
+🖥️ For Your Local Machine (Laptop/Desktop)
+Here’s how you can manage Python and install packages on your own computer.
+<br>
+I’ve used Conda and pip for a long time, but now I recommend a new tool called uv. It's faster and smarter when it comes to installing Python packages and handling dependencies.
+<br>
+
 There are several ways to install Python and set up your computing environment. Here, I share my personal preferences.
 <br>
 Note: If you are running any of the notebooks on Google Colab (https://colab.research.google.com/) and want to install the dependencies, simply run the following code in a new cell at the top of the notebook and skip the rest of this tutorial: pip install uv
