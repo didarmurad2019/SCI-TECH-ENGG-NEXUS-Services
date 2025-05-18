@@ -10,29 +10,25 @@ If you're running your code on Google Colab (https://colab.research.google.com/)
 You can skip the rest of this guide if you're using Colab.
 <br>
 🖥️ For Your Local Machine (Laptop/Desktop)
+<br>
 Here’s how you can manage Python and install packages on your own computer.
 <br>
-I’ve used Conda and pip for a long time, but now I recommend a new tool called uv. It's faster and smarter when it comes to installing Python packages and handling dependencies.
+I’ve used Conda (https://colab.research.google.com/) and pip (https://pypi.org/project/pip/), for a long time, but now I recommend a new tool called uv (https://github.com/astral-sh/uv). It's faster and smarter when it comes to installing Python packages and handling dependencies.
+<br>
+✅ Best Way in 2025: Use uv
+<br>
+Try Option 1 (uv) first — it's modern and fast. If you run into trouble, you can try Option 2 (Conda) instead.
+<br>
+🧰 Option 1: Using uv
+<br>
+Let’s go through the steps to set up Python and install packages using uv.
+<br>
+Note: uv works like pip, so if you’ve used pip before, this will feel familiar.
+<br>
+There are also more advanced uv features, like using uv add, but we’ll stick with the basics here.
 <br>
 
-There are several ways to install Python and set up your computing environment. Here, I share my personal preferences.
-<br>
-Note: If you are running any of the notebooks on Google Colab (https://colab.research.google.com/) and want to install the dependencies, simply run the following code in a new cell at the top of the notebook and skip the rest of this tutorial: pip install uv
-<br>
-The remaining sections below describe how you can manage your Python environment and packages on your local machine.
-<br>
-I have been a long-time user of Conda (https://anaconda.org/anaconda/conda) and pip (https://pypi.org/project/pip/), but recently, the uv package (https://github.com/astral-sh/uv) has gained significant traction as it provides a faster and more efficient way to install packages and resolve dependencies.
-<br>
-I recommend starting with Option 1: Using uv as it is the more modern approach in 2025. If you encounter problems with Option 1, consider Option 2: Using Conda.
-<br>
-I recommend starting with Option 1: Using uv as it is the more modern approach in 2025. If you encounter problems with Option 1, consider Option 2: Using Conda.
-<br>
 
-# Option 1: Using uv
-<br>
-This section guides you through the Python setup and package installation procedure using uv via its uv pip interface. The uv pip interface may feel more familiar to most Python users who have used pip before than the native uv commands.
-<br>
-Note: There are alternative ways to install Python and use uv. For example, you can install Python directly via uv and use uv add instead of uv pip install for even faster package management.
 
 # 1. Install Python (if not installed)
 <br>
