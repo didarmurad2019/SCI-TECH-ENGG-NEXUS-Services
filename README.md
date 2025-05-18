@@ -12,3 +12,9 @@ I have been a long-time user of Conda (https://anaconda.org/anaconda/conda) and 
 I recommend starting with Option 1: Using uv as it is the more modern approach in 2025. If you encounter problems with Option 1, consider Option 2: Using Conda.
 <br>
 I recommend starting with Option 1: Using uv as it is the more modern approach in 2025. If you encounter problems with Option 1, consider Option 2: Using Conda.
+<br>
+# Option 1: Using uv
+<br>
+This section guides you through the Python setup and package installation procedure using uv via its uv pip interface. The uv pip interface may feel more familiar to most Python users who have used pip before than the native uv commands.
+<br>
+Note: There are alternative ways to install Python and use uv. For example, you can install Python directly via uv and use uv add instead of uv pip install for even faster package management.
